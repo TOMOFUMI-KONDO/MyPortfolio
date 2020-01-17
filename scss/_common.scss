@@ -1,17 +1,59 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 header {
-  h1 {
-    text-align: center;
-  }
+  text-align: center;
 }
 
 main {
-  h2 {
+  @include center($content-width, 100%);
+
+  :not(nav) {
     text-align: center;
+  }
+
+  .top {
+    .circle {
+      border-radius: 50% 50%;
+    }
+  }
+
+  .skill {
+    .container {
+      article {
+        flex: 1 0 33%;
+      }
+    }
+  }
+
+  .performance {
+    .container {
+      article {
+        flex: 1 0 33%;
+      }
+    }
+  }
+
+  .hobby {
+    .container {
+      article {
+        flex: 1 0 33%;
+      }
+    }
+  }
+
+  .publicity {
+    .container {
+      article {
+        flex: 1 0 33%;
+      }
+    }
   }
 }
 
 footer {
-  #copyright {
-    text-align: center;
-  }
+  text-align: center;
 }

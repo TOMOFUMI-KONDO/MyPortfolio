@@ -7,3 +7,8 @@ $breakpoints: (
   "tab": "screen and (max-width: #{$content-width - 1px})",
   "pc": "screen and (min-width: #{$content-width})",
 );
+
+//配色
+$main-color: #94FFBB;
+$base-color: #7BE884;
+$accent-color: #E5625F;

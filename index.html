@@ -5,32 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>近藤智文のポートフォリオ</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylejQuerycss">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
 </head>
 <body>
   <header>
     <h1>近藤智文のポートフォリオ</h1>
   </header>
-  <nav>ホーム</nav>
   <main>
-    <section id ="top">
-      <h2>自己紹介</h2>
+    <nav>ホーム</nav>
+    <section id="top" class="top">
+      <div class="container">
+        <div>
+          <h2>自己紹介</h2>
+          <p>名前：　近藤智文</p>
+          <p>所属：　東北大学　工学部　電気情報物理工学科　２年</p>
+          <p>Webプログラミング歴：　１年３ヶ月</p>
+          <p>志望職種：　フロントエンドエンジニア</p>
+        </div>
+        <div>
+          <img class="circle" src="img/近藤智文.jpg" alt="近藤智文の写真" width="300px" height="300px">
+        </div>
+      </div>
     </section>
-    <section id="skill">
+    <section id="skill" class="skill">
       <h2>スキル</h2>
+      <p>使用経験のあるプログラミング言語やフレームワーク、その他スキルについて紹介します。</p>
+      <div class="container">
+        <article>
+          <img src="img/html_css.png" alt="HTML & CSS">
+          <h3>HTMl & CSS</h3>
+        </article>
+        <article>
+          <img src="img/jQuery.jpeg" alt="jQeury">
+          <h3>jQuery</h3>
+        </article>
+        <article>
+          <img src="img/PHP.png" alt="PHP">
+          <h3>PHP</h3>
+        </article>
+        <article>
+          <img src="img/WordPress.png" alt="WordPress">
+          <h3>WordPress</h3>
+        </article>
+        <article>
+          <img src="img/Illustrator.jpeg" alt="Illustrator">
+          <h3>Illustrator</h3>
+        </article>
+        <article>
+          <img src="img/RentalServer.jpeg" alt="RentalServer">
+          <h3>レンタルサーバー</h3>
+        </article>
+        <article>
+          <img src="img/git_github.png" alt="Git & GitHub">
+          <h3>Git & GitHub</h3>
+        </article>
+        <article>
+          <img src="img/Vagrant_VirtualBox.jpeg" alt="Vagrant & VirtualBox">
+          <h3>Vagrant & VirtualBox</h3>
+        </article>
+      </div>
     </section>
-    <section id="performance">
+    <section id="performance" class="performance">
       <h2>制作物</h2>
+      <div class="container">
+        <h3>模写コーディング</h3>
+        <h3>自動校正ツール</h3>
+      </div>
     </section>
-    <section id="hoby">
+    <section id="hoby" class="hoby">
       <h2>趣味</h2>
+        <div class="container">
+        <h3>読書</h3>
+        <h3>お笑い</h3>
+      </div>
     </section>
-    <section id="publicity">
+    <section id="publicity" class="publicity">
       <h2>発信</h2>
+        <div class="container">
+        <h3>GitHub</h3>
+        <h3>Twitter</h3>
+      </div>
     </section>
   </main>
   <footer>
-    <p id="copyright"><i class="far fa-copyright"></i></p>
+    <p id="copyright" class="copyright">Copyright<i class="far fa-copyright"></i>2020   Tomofumi Kondo   All Rights Reserved.</p>
   </footer>
 </body>
 </html>
